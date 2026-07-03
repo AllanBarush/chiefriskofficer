@@ -12,22 +12,26 @@
 :root{--navy:#221042;--navy-deep:#0E0722;--navy-mid:#2A1651;--accent:#CFA85C;--accent-dark:#A87D33;--accent-glow:#E2C685;--accent-soft:#D9BC85;--purple:#B98C3C;--ivory:#F4F2EC;--ivory-warm:#FAF8F2;--white:#FFF;--text-primary:#141413;--text-secondary:#625E52;--border-subtle:rgba(0,0,0,0.06);--shadow-md:0 8px 32px rgba(14,7,34,0.12);--r-sm:8px;--r-md:16px;--r-lg:24px}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth;font-size:16px;-webkit-font-smoothing:antialiased}body{font-family:'Lora',Georgia,serif;font-size:1rem;line-height:1.72;color:var(--text-primary);background:var(--ivory);overflow-x:hidden}
 h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1.15;letter-spacing:-.02em}
-.display-xl{font-size:clamp(2.8rem,6vw,5.2rem);font-weight:800;letter-spacing:-.03em}.display-md{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700}
+.display-xl{font-size:clamp(2.2rem,5vw,4.3rem);font-weight:800;text-transform:uppercase;letter-spacing:.06em}.display-md{font-size:clamp(1.3rem,2.6vw,1.95rem);font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.sec-head{text-align:center;max-width:880px;margin:0 auto}.accent-line{width:50px;height:2px;background:var(--accent);margin:1.2rem auto 0;border-radius:1px}
+.urgency-strip{background:linear-gradient(135deg,#1D0D3A 0%,#221042 50%,#2A1651 100%);border-top:1px solid rgba(207,168,92,.3);border-bottom:1px solid rgba(207,168,92,.3);padding:1.5rem 1.25rem;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;column-gap:1.25rem;row-gap:.5rem;text-align:center}
+.urgency-strip .us-label{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:700;color:var(--accent);letter-spacing:.22em;text-transform:uppercase;white-space:nowrap}
+.urgency-strip .us-dot{width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.7;flex-shrink:0}
+.urgency-strip .us-info{font-family:'Poppins',sans-serif;font-size:.78rem;font-weight:600;color:rgba(255,255,255,.85);letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
 .section-label{font-family:'Poppins',sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-dark)}
 .body-lg{font-size:1.125rem;line-height:1.78}.container{max-width:1200px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem)}section{padding:clamp(4rem,8vw,8rem) 0}
 .site-header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1rem 0;background:rgba(14,7,34,.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(207,168,92,.08);transition:all .4s}
 .header-inner{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem)}.header-logo{height:40px;filter:brightness(1.1)}
-.header-nav{display:flex;gap:2rem;align-items:center}.header-nav a{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:color .3s}.header-nav a:hover{color:var(--accent)}
-.btn-header-cta{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:600;color:var(--white)!important;background:var(--purple);padding:.6rem 1.4rem;border-radius:100px;text-decoration:none;transition:all .3s}.btn-header-cta:hover{background:var(--accent-dark);box-shadow:0 0 24px rgba(207,168,92,.4)}
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;background:var(--navy-deep);overflow:hidden;padding-top:80px}
-.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 100% 80% at 50% 45%,var(--navy-mid) 0%,var(--navy-deep) 75%)}
-.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 45% at 50% 42%,rgba(185,140,60,.08) 0%,transparent 70%)}
+.header-nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:nowrap}.header-nav a{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:color .3s;white-space:nowrap;line-height:1}.header-nav a:hover{color:var(--accent)}
+.btn-header-cta{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:600;color:var(--white)!important;background:var(--purple);padding:.65rem 1.4rem;border-radius:100px;text-decoration:none;transition:all .3s;white-space:nowrap;display:inline-flex;align-items:center}.btn-header-cta:hover{background:var(--accent-dark);box-shadow:0 0 24px rgba(207,168,92,.4)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;background:linear-gradient(135deg,#1D0D3A 0%,#221042 52%,#2A1651 100%);overflow:hidden;padding-top:80px}
+.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 55% 45% at 50% 40%,rgba(185,140,60,.09) 0%,transparent 70%)}
 .hero-content{position:relative;z-index:2;width:100%;max-width:1200px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem);display:grid;grid-template-columns:1fr 380px;gap:4rem;align-items:center}
 .hero-text{max-width:720px}
 .hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(207,168,92,.1);border:1px solid rgba(207,168,92,.2);padding:.5rem 1.2rem;border-radius:100px;margin-bottom:2rem}
 .hero-badge span{font-family:'Poppins',sans-serif;font-size:.75rem;font-weight:600;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
 .hero-badge .dot{width:6px;height:6px;background:var(--accent);border-radius:50%;animation:pd 2s ease-in-out infinite}@keyframes pd{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.5)}}
-.hero h1{color:var(--white);margin-bottom:.5rem}.hero h1 .accent{color:var(--white);position:relative;display:inline-block}.hero h1 .accent::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:60px;height:3px;background:var(--accent);border-radius:2px}
+.hero h1{color:var(--white);margin-bottom:.5rem}.hero h1 .accent{color:var(--white);position:relative;display:inline-block}.hero h1 .accent::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:50px;height:2px;background:var(--accent);border-radius:1px}
 .hero-tagline{font-family:'Lora',serif;font-style:italic;font-size:clamp(1.1rem,2vw,1.5rem);color:var(--accent-soft);margin-bottom:.6rem}
 .hero-date{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:500;color:var(--accent);letter-spacing:.2em;text-transform:uppercase;margin-bottom:2.5rem}
 .hero-abstract{font-family:'Lora',serif;font-size:1.05rem;color:rgba(255,255,255,.72);line-height:1.85;margin-bottom:2.5rem;max-width:600px}
@@ -106,7 +110,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 .footer-inner{display:flex;justify-content:space-between;align-items:center}.footer-logo{height:32px}.footer-text{font-family:'Poppins',sans-serif;font-size:.72rem;color:rgba(255,255,255,.35)}
 .footer-links{display:flex;gap:2rem}.footer-links a{font-family:'Poppins',sans-serif;font-size:.72rem;color:rgba(255,255,255,.4);text-decoration:none;transition:color .3s}.footer-links a:hover{color:var(--accent)}
 @media(max-width:1024px){.hero-content{grid-template-columns:1fr}.hero-sidebar{display:none}.abstract-grid{grid-template-columns:1fr}.highlights-grid{grid-template-columns:1fr}.audience-grid{grid-template-columns:repeat(2,1fr)}.form-container{grid-template-columns:1fr}.sector-bar{grid-template-columns:repeat(3,1fr)}.curriculum-summary{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:640px){.header-nav{display:none}.hero-stats{flex-direction:column;gap:1rem}.hero-ctas{flex-direction:column}.audience-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.sector-bar{grid-template-columns:1fr}.curriculum-summary{grid-template-columns:1fr}.footer-inner{flex-direction:column;gap:1.5rem;text-align:center}}
+@media(max-width:640px){.header-nav{gap:1rem}.header-nav a:not(.btn-header-cta){display:none}.hero-stats{flex-direction:column;gap:1rem}.hero-ctas{flex-direction:column}.audience-grid{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.sector-bar{grid-template-columns:1fr}.curriculum-summary{grid-template-columns:1fr}.footer-inner{flex-direction:column;gap:1.5rem;text-align:center}}
 </style>
 </head>
 <body>
@@ -132,8 +136,8 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 <div class="sidebar-start"><div class="label">Fecha de inicio</div><div class="date">Agosto 2026</div></div></div></div></section>
 
 <section class="abstract-section" id="abstract"><div class="container">
-<span class="section-label">Abstract ejecutivo</span>
-<h2 class="display-md" style="margin-top:.75rem;color:var(--navy)">La brecha que ningún programa ha cerrado</h2>
+<div class="sec-head"><span class="section-label">Abstract ejecutivo</span>
+<h2 class="display-md" style="margin-top:.75rem;color:var(--navy)">La brecha que ningún programa ha cerrado</h2><div class="accent-line"></div></div>
 <div class="abstract-grid" style="margin-top:2.5rem"><div class="abstract-content">
 <p>La disciplina del financial risk management nació de la necesidad: cuando J.P. Morgan liberó RiskMetrics en 1994, el objetivo era medir la exposición de un trading book en dólares con un horizonte definido. La industria bancaria profesionalizó la función empujada por pérdidas espectaculares — <strong>Barings, Orange County, LTCM</strong> — y por un regulador que exigió capital proporcional al riesgo.</p>
 <p>Pero el riesgo financiero <strong>no vive exclusivamente en los bancos</strong>. Aseguradoras, fondos de pensiones, broker-dealers, corporativos, financieras corporativas, fintechs, SOFIPOs y reguladores enfrentan riesgos igualmente complejos con marcos regulatorios y modelos de negocio propios.</p>
@@ -141,20 +145,20 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 </div><div>
 <div class="abstract-pullquote"><p>No existe en el mundo un programa ejecutivo que forme al CRO con visión integral sobre todos los sectores de la industria financiera simultáneamente. Este programa responde a esa realidad con un diseño sin precedente.</p><div class="attribution">— Filosofía CRO Program | RiskMathics</div></div></div></div>
 <div class="sector-bar">
-<div class="sector-chip">🏦 Banca<span class="sub">Basel III/IV, FRTB, IFRS 9</span></div>
-<div class="sector-chip">🛡️ Seguros<span class="sub">Solvency II, IFRS 17, ORSA</span></div>
-<div class="sector-chip">🏛️ Pensiones<span class="sub">CONSAR, LDI, Demográfico</span></div>
-<div class="sector-chip">📈 Broker-Dealers<span class="sub">IOSCO, MiFID II, Conduct</span></div>
-<div class="sector-chip">🏢 Corporativos<span class="sub">ISO 31000, COSO, Treasury</span></div>
-<div class="sector-chip">💳 Financieras Corp.<span class="sub">Ford Credit, Coppel, Walmart</span></div>
-<div class="sector-chip">⚡ Fintechs<span class="sub">Ley Fintech, PSD2, Sandbox</span></div>
-<div class="sector-chip">🔧 SOFIPOs/SOFOMs<span class="sub">CNBV, Microfinanzas</span></div>
-<div class="sector-chip">⚖️ Regulador<span class="sub">CNBV, Banxico, CONSAR</span></div>
+<div class="sector-chip">Banca<span class="sub">Basel III/IV, FRTB, IFRS 9</span></div>
+<div class="sector-chip">Seguros<span class="sub">Solvency II, IFRS 17, ORSA</span></div>
+<div class="sector-chip">Pensiones<span class="sub">CONSAR, LDI, Demográfico</span></div>
+<div class="sector-chip">Broker-Dealers<span class="sub">IOSCO, MiFID II, Conduct</span></div>
+<div class="sector-chip">Corporativos<span class="sub">ISO 31000, COSO, Treasury</span></div>
+<div class="sector-chip">Financieras Corp.<span class="sub">Ford Credit, Coppel, Walmart</span></div>
+<div class="sector-chip">Fintechs<span class="sub">Ley Fintech, PSD2, Sandbox</span></div>
+<div class="sector-chip">SOFIPOs/SOFOMs<span class="sub">CNBV, Microfinanzas</span></div>
+<div class="sector-chip">Regulador<span class="sub">CNBV, Banxico, CONSAR</span></div>
 </div></div></section>
 
 <section class="highlights-section"><div class="container">
-<span class="section-label" style="color:var(--accent)">Diferenciadores</span>
-<h2 class="display-md" style="margin-top:.75rem;color:var(--white)">Por qué este programa es único en el mundo</h2>
+<div class="sec-head"><span class="section-label" style="color:var(--accent)">Diferenciadores</span>
+<h2 class="display-md" style="margin-top:.75rem;color:var(--white)">Por qué este programa es único en el mundo</h2><div class="accent-line"></div></div>
 <div class="highlights-grid" style="margin-top:2.5rem">
 <div class="highlight-card"><div class="highlight-number">01</div><h3>9 sectores integrados</h3><p>Banca + Seguros + Pensiones + Broker-Dealers + Corporativos + Financieras Corp. + Fintechs + SOFIPOs + Regulador.</p></div>
 <div class="highlight-card"><div class="highlight-number">02</div><h3>Regulador y regulado en la misma mesa</h3><p>Visión bidireccional: estabilidad sistémica vs eficiencia económica con rigor técnico.</p></div>
@@ -167,25 +171,25 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 </div></div></section>
 
 <section class="audience-section" id="audience"><div class="container">
-<span class="section-label">Para quién</span>
-<h2 class="display-md" style="margin-top:.75rem">Mandos medios hacia arriba con visión integral</h2>
+<div class="sec-head"><span class="section-label">Para quién</span>
+<h2 class="display-md" style="margin-top:.75rem">Mandos medios hacia arriba con visión integral</h2><div class="accent-line"></div></div>
 <div class="audience-grid">
-<div class="audience-card"><h4>👔 CROs & Deputy CROs</h4><p>Heads of Risk, Directores UAIR con visión multi-sectorial sin precedente.</p></div>
-<div class="audience-card"><h4>💼 CFOs & Tesoreros</h4><p>ALM Managers que necesitan el lenguaje del riesgo a nivel Board.</p></div>
-<div class="audience-card"><h4>📊 Gerentes de Riesgo</h4><p>Subdirectores de mercado, crédito, liquidez, operacional, ciber y modelos.</p></div>
-<div class="audience-card"><h4>🏛️ Consejeros & Comités</h4><p>Miembros de Comités de Riesgos y Auditoría con profundidad técnica.</p></div>
-<div class="audience-card"><h4>⚡ Fintechs & SOFOMs</h4><p>Stori, Klar, Nu, Plata, Kueski, Konfío — riesgo digital sin precedente.</p></div>
-<div class="audience-card"><h4>💳 Financieras Corporativas</h4><p>Ford Credit, GM Financial, Coppel, Liverpool, Walmart — sin buffers bancarios.</p></div>
-<div class="audience-card"><h4>⚖️ Reguladores</h4><p>CNBV, Banxico, CONSAR, CNSF — entender lo que se regula.</p></div>
-<div class="audience-card"><h4>🔍 Actuarios & Validators</h4><p>Analistas senior y model validators con visión ejecutiva.</p></div>
-<div class="audience-card"><h4>🛡️ Compliance & Auditoría</h4><p>Officers de gobierno corporativo con el lenguaje técnico del riesgo.</p></div>
+<div class="audience-card"><h4>CROs & Deputy CROs</h4><p>Heads of Risk, Directores UAIR con visión multi-sectorial sin precedente.</p></div>
+<div class="audience-card"><h4>CFOs & Tesoreros</h4><p>ALM Managers que necesitan el lenguaje del riesgo a nivel Board.</p></div>
+<div class="audience-card"><h4>Gerentes de Riesgo</h4><p>Subdirectores de mercado, crédito, liquidez, operacional, ciber y modelos.</p></div>
+<div class="audience-card"><h4>Consejeros & Comités</h4><p>Miembros de Comités de Riesgos y Auditoría con profundidad técnica.</p></div>
+<div class="audience-card"><h4>Fintechs & SOFOMs</h4><p>Stori, Klar, Nu, Plata, Kueski, Konfío — riesgo digital sin precedente.</p></div>
+<div class="audience-card"><h4>Financieras Corporativas</h4><p>Ford Credit, GM Financial, Coppel, Liverpool, Walmart — sin buffers bancarios.</p></div>
+<div class="audience-card"><h4>Reguladores</h4><p>CNBV, Banxico, CONSAR, CNSF — entender lo que se regula.</p></div>
+<div class="audience-card"><h4>Actuarios & Validators</h4><p>Analistas senior y model validators con visión ejecutiva.</p></div>
+<div class="audience-card"><h4>Compliance & Auditoría</h4><p>Officers de gobierno corporativo con el lenguaje técnico del riesgo.</p></div>
 </div>
 <div style="margin-top:2.5rem;padding:1.5rem 1.8rem;background:var(--ivory-warm);border:1px solid var(--border-subtle);border-left:3px solid var(--purple);border-radius:var(--r-md)"><h4 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-dark);margin-bottom:.5rem">Pre-requisitos</h4><p style="font-size:.9rem;color:var(--text-secondary);line-height:1.7">Licenciatura en carreras económico-administrativas, ingeniería, matemáticas, actuaría o afines · Deseable experiencia en áreas financieras, de riesgo, regulación, auditoría o tesorería · Algunos módulos se imparten parcial o totalmente en inglés (se recomienda nivel intermedio de lectura de inglés técnico).</p></div></div></section>
 
 <section class="curriculum-section" id="curriculum"><div class="container">
-<span class="section-label">Arquitectura del programa</span>
-<h2 class="display-md" style="margin-top:.75rem">22 módulos · 411 horas · 22 capstones</h2>
-<p class="body-lg" style="color:var(--text-secondary);margin-top:1rem;max-width:700px">137 sesiones de 3 horas, virtual live con interacción en tiempo real. Español + material técnico y algunos módulos en inglés (40%). Duración estimada: 12–13 meses (8–10 horas por semana). Cada módulo culmina con un Capstone Project profesional.</p>
+<div class="sec-head"><span class="section-label">Arquitectura del programa</span>
+<h2 class="display-md" style="margin-top:.75rem">22 módulos · 411 horas · 22 capstones</h2><div class="accent-line"></div>
+<p class="body-lg" style="color:var(--text-secondary);margin-top:1.25rem;max-width:760px;margin-left:auto;margin-right:auto">137 sesiones de 3 horas, virtual live con interacción en tiempo real. Español + material técnico y algunos módulos en inglés (40%). Duración estimada: 12–13 meses (8–10 horas por semana). Cada módulo culmina con un Capstone Project profesional.</p></div>
 
 <div class="phase-header" style="margin-top:3rem"><span class="phase-tag">Foundations</span><h3>Mercados, ERM & Quantitative Toolkit</h3></div>
 <div class="module-card"><div class="module-card-header" onclick="toggleModule(this)"><div class="module-number">I</div><div class="module-info"><h4>Global Financial Markets for Risk Leaders</h4><div class="module-meta">8 sesiones · 24h</div></div><div class="module-toggle">+</div></div><div class="module-body"><div class="module-objective"><h5>Objetivo</h5><p>Visión global de mercados financieros para los 9 sectores: capitales, dinero, FX, commodities, derivados. Eventos económicos y geopolíticos en EE.UU., Europa y México.</p></div><div class="module-topics"><h5>Temario</h5><ul><li>Sistema financiero internacional: capitales, dinero, FX, commodities</li><li>Instituciones: FED, ECB, Banxico, BoE, BoJ, FMI, BIS, FSB</li><li>Contagio y crisis como vectores sistémicos</li><li>Renta fija: yield curves, duración, convexidad, spreads, riesgo país</li><li>Renta variable, derivados: VIX, forwards, futuros, opciones, swaps</li><li>Crisis: 2008 (MBS/CDS), 2020 (pandemia), 2023 (SVB/Credit Suisse)</li><li>FX y commodities; Sector lens: 9 sectores</li></ul></div></div></div>
@@ -222,14 +226,18 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 <div class="module-card"><div class="module-card-header" onclick="toggleModule(this)"><div class="module-number">XXII</div><div class="module-info"><h4>Fintech, Digital Risk, Sandboxes & Conduct Risk</h4><div class="module-meta">5 sesiones · 15h</div></div><div class="module-toggle">+</div></div><div class="module-body"><div class="module-topics"><h5>Temario</h5><ul><li>Ley Fintech MX, PSD2/PSD3, DORA, MiCA, Open Banking</li><li>Conduct Risk (5 Questions FCA); Crypto, DeFi, Stablecoins</li><li>Casos: Wells Fargo, Wirecard, TerraLuna, Robinhood</li></ul></div></div></div>
 
 <div class="curriculum-summary"><div class="summary-item"><div class="number">22</div><div class="label">Módulos</div></div><div class="summary-item"><div class="number">411</div><div class="label">Horas</div></div><div class="summary-item"><div class="number">137</div><div class="label">Sesiones de 3h</div></div><div class="summary-item"><div class="number">22</div><div class="label">Capstones</div></div></div>
+<div style="margin-top:3rem;text-align:center"><p style="font-family:'Poppins',sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-dark)">22 Capstone Projects — un entregable profesional por módulo</p><div class="accent-line"></div><p style="font-size:.95rem;color:var(--text-secondary);max-width:780px;margin:1.25rem auto 0;line-height:1.85">Market Shock Dashboard · ERM Blueprint · FRTB Capital Impact · xVA Governance Pack · Credit Risk Policy &amp; Scorecard · Liquidity Stress Test · ALCO Pack Board-grade · Operational Resilience Map · Cyber Tabletop · Model Governance Pack · Integrated Stress Test · Financial Crisis War Room</p></div>
 </div></section>
 
+<div class="urgency-strip"><span class="us-label">Cupo limitado</span><span class="us-dot"></span><span class="us-info">Inicio: Agosto 2026</span><span class="us-dot"></span><span class="us-info">Virtual Live</span><span class="us-dot"></span><span class="us-info">USD $14,500 + TAX</span></div>
+
 <!-- ===== RISKMATHICS SALES MACHINE (inyectable) ===== -->
-<section id="rm-enroll" style="background:linear-gradient(135deg,#2A1651,#0E0722);color:#fff;padding:64px 20px;font-family:'Poppins',Arial,sans-serif;">
+<section id="rm-enroll" style="background:linear-gradient(135deg,#2A1651 0%,#221042 50%,#0E0722 100%);color:#fff;padding:72px 20px;font-family:'Poppins',Arial,sans-serif;">
   <div style="max-width:660px;margin:0 auto;">
     <div style="text-align:center;margin-bottom:28px;">
-      <div style="color:#CFA85C;letter-spacing:3px;font-size:12px;font-weight:700;">INSCRIPCIÓN · CUPO LIMITADO</div>
-      <h2 style="font-size:34px;margin:12px 0 8px;font-weight:800;line-height:1.15;">Asegura tu lugar</h2>
+      <div style="color:#CFA85C;letter-spacing:3px;font-size:12px;font-weight:700;">INSCRIPCIÓN · CUPO LIMITADO · INICIO AGOSTO 2026</div>
+      <h2 style="font-size:30px;margin:12px 0 8px;font-weight:800;line-height:1.2;text-transform:uppercase;letter-spacing:.06em;">Asegura tu lugar</h2>
+      <div style="width:50px;height:2px;background:#CFA85C;margin:12px auto 14px;border-radius:1px;"></div>
       <p style="color:#D9CBA8;font-size:16px;margin:0;">Déjanos tus datos, verifica tu WhatsApp y recibe el temario completo. Sin compromiso.</p>
     </div>
     <div style="background:#fff;color:#1f2937;border-radius:18px;padding:32px;box-shadow:0 30px 70px rgba(0,0,0,.3);">
@@ -251,7 +259,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
       <div id="rm-thanks" style="display:none;background:#ecfdf5;border:1px solid #6ee7b7;color:#065f46;padding:20px;border-radius:14px;font-size:15px;">✅ <b>¡Listo!</b> Recibimos y verificamos tus datos. Te enviamos el temario y un asesor te contactará.</div>
       <div style="margin-top:24px;padding-top:22px;border-top:1px solid #eef1f6;text-align:center;">
         <div style="font-size:13px;color:#6b7280;letter-spacing:1px;">O INSCRÍBETE Y PAGA DIRECTO</div>
-        <div style="font-size:30px;font-weight:800;color:#221042;margin:8px 0 4px;">USD $<span>14,500</span> <span style="font-size:14px;color:#6b7280;font-weight:500;">+ IVA</span></div>
+        <div style="font-size:30px;font-weight:800;color:#221042;margin:8px 0 4px;">USD $<span>14,500</span> <span style="font-size:14px;color:#6b7280;font-weight:500;">+ TAX</span></div>
         <div style="display:grid;gap:10px;margin-top:16px;">
           <a id="rm-paypal" href="" target="_blank" rel="noopener" style="background:#CFA85C;color:#221042;font-weight:800;padding:14px;border-radius:10px;text-decoration:none;">Pagar con PayPal · 6 MSI</a>
           <a id="rm-stripe" href="https://buy.stripe.com/cNi9AL6flaKY7AB1AJ2Ry1p" target="_blank" rel="noopener" style="background:#B98C3C;color:#FFFFFF;font-weight:700;padding:14px;border-radius:10px;text-decoration:none;">Pagar con tarjeta · Stripe</a>
@@ -275,7 +283,7 @@ async function rmVerify(){var code=(document.getElementById('rm-otp').value||"")
 <!-- ===== /SALES MACHINE ===== -->
 
 
-<footer class="site-footer"><div class="container"><div class="footer-inner"><div style="display:flex;align-items:center;gap:1rem"><span style="font-family:'Poppins',sans-serif;font-weight:800;font-size:.95rem;color:#fff;letter-spacing:.04em">RISK<span style="color:var(--accent)">MATHICS</span></span><span class="footer-text">© 2026 RiskMathics Financial Innovation Institute.</span></div><div class="footer-links"><a href="javascript:void(0)">Términos</a><a href="javascript:void(0)">Privacidad</a><a href="mailto:executive@riskmathics.com">Contacto</a></div></div></div></footer>
+<footer class="site-footer"><div class="container"><div class="footer-inner"><div style="display:flex;align-items:center;gap:1rem"><span style="font-family:'Poppins',sans-serif;font-weight:800;font-size:.95rem;color:#fff;letter-spacing:.04em">RISK<span style="color:var(--accent)">MATHICS</span></span><span class="footer-text">© 2026 RiskMathics Financial Innovation Institute.</span></div><div class="footer-links"><a href="javascript:void(0)">Términos</a><a href="javascript:void(0)">Privacidad</a><a href="mailto:growth@riskmathics.com">Contacto</a></div></div></div></footer>
 
 <script>
 function toggleModule(h){h.parentElement.classList.toggle('active')}
