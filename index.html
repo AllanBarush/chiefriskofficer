@@ -9,26 +9,26 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#221042;--navy-deep:#0E0722;--navy-mid:#2A1651;--accent:#CFA85C;--accent-dark:#A87D33;--accent-glow:#E2C685;--accent-soft:#D9BC85;--purple:#B98C3C;--ivory:#F4F2EC;--ivory-warm:#FAF8F2;--white:#FFF;--text-primary:#141413;--text-secondary:#625E52;--border-subtle:rgba(0,0,0,0.06);--shadow-md:0 8px 32px rgba(14,7,34,0.12);--r-sm:8px;--r-md:16px;--r-lg:24px}
+:root{--navy:#101C33;--navy-deep:#0A1220;--navy-mid:#16263F;--accent:#C8A04A;--accent-dark:#A8813A;--accent-glow:#E3C578;--accent-soft:#E3C578;--gold:#C8A04A;--ivory:#F4F2EC;--ivory-warm:#FAF8F2;--white:#FFF;--text-primary:#141413;--text-secondary:#625E52;--border-subtle:rgba(0,0,0,0.06);--shadow-md:0 8px 32px rgba(10,18,32,0.12);--r-sm:8px;--r-md:16px;--r-lg:24px}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth;font-size:16px;-webkit-font-smoothing:antialiased}body{font-family:'Lora',Georgia,serif;font-size:1rem;line-height:1.72;color:var(--text-primary);background:var(--ivory);overflow-x:hidden}
 h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1.15;letter-spacing:-.02em}
 .display-xl{font-size:clamp(2.2rem,5vw,4.3rem);font-weight:800;text-transform:uppercase;letter-spacing:.06em}.display-md{font-size:clamp(1.3rem,2.6vw,1.95rem);font-weight:700;text-transform:uppercase;letter-spacing:.08em}
 .sec-head{text-align:center;max-width:880px;margin:0 auto}.accent-line{width:50px;height:2px;background:var(--accent);margin:1.2rem auto 0;border-radius:1px}
-.urgency-strip{background:linear-gradient(135deg,#1D0D3A 0%,#221042 50%,#2A1651 100%);border-top:1px solid rgba(207,168,92,.3);border-bottom:1px solid rgba(207,168,92,.3);padding:1.5rem 1.25rem;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;column-gap:1.25rem;row-gap:.5rem;text-align:center}
+.urgency-strip{background:linear-gradient(135deg,#0A1220 0%,#101C33 50%,#16263F 100%);border-top:1px solid rgba(200,160,74,.3);border-bottom:1px solid rgba(200,160,74,.3);padding:1.5rem 1.25rem;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;column-gap:1.25rem;row-gap:.5rem;text-align:center}
 .urgency-strip .us-label{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:700;color:var(--accent);letter-spacing:.22em;text-transform:uppercase;white-space:nowrap}
 .urgency-strip .us-dot{width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.7;flex-shrink:0}
 .urgency-strip .us-info{font-family:'Poppins',sans-serif;font-size:.78rem;font-weight:600;color:rgba(255,255,255,.85);letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
 .section-label{font-family:'Poppins',sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-dark)}
 .body-lg{font-size:1.125rem;line-height:1.78}.container{max-width:1200px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem)}section{padding:clamp(4rem,8vw,8rem) 0}
-.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1rem 0;background:rgba(14,7,34,.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(207,168,92,.08);transition:all .4s}
+.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:1rem 0;background:rgba(10,18,32,.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(200,160,74,.08);transition:all .4s}
 .header-inner{display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem)}.header-logo{height:40px;filter:brightness(1.1)}
 .header-nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:nowrap}.header-nav a{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:500;color:rgba(255,255,255,.7);text-decoration:none;transition:color .3s;white-space:nowrap;line-height:1}.header-nav a:hover{color:var(--accent)}
-.btn-header-cta{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:600;color:var(--white)!important;background:var(--purple);padding:.65rem 1.4rem;border-radius:100px;text-decoration:none;transition:all .3s;white-space:nowrap;display:inline-flex;align-items:center}.btn-header-cta:hover{background:var(--accent-dark);box-shadow:0 0 24px rgba(207,168,92,.4)}
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;background:linear-gradient(135deg,#1D0D3A 0%,#221042 52%,#2A1651 100%);overflow:hidden;padding-top:80px}
-.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 55% 45% at 50% 40%,rgba(185,140,60,.09) 0%,transparent 70%)}
+.btn-header-cta{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:600;color:var(--white)!important;background:var(--gold);padding:.65rem 1.4rem;border-radius:100px;text-decoration:none;transition:all .3s;white-space:nowrap;display:inline-flex;align-items:center}.btn-header-cta:hover{background:var(--accent-dark);box-shadow:0 0 24px rgba(200,160,74,.4)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;background:linear-gradient(135deg,#0A1220 0%,#101C33 52%,#16263F 100%);overflow:hidden;padding-top:80px}
+.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 55% 45% at 50% 40%,rgba(200,160,74,.09) 0%,transparent 70%)}
 .hero-content{position:relative;z-index:2;width:100%;max-width:1200px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem);display:grid;grid-template-columns:1fr 380px;gap:4rem;align-items:center}
 .hero-text{max-width:720px}
-.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(207,168,92,.1);border:1px solid rgba(207,168,92,.2);padding:.5rem 1.2rem;border-radius:100px;margin-bottom:2rem}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(200,160,74,.1);border:1px solid rgba(200,160,74,.2);padding:.5rem 1.2rem;border-radius:100px;margin-bottom:2rem}
 .hero-badge span{font-family:'Poppins',sans-serif;font-size:.75rem;font-weight:600;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
 .hero-badge .dot{width:6px;height:6px;background:var(--accent);border-radius:50%;animation:pd 2s ease-in-out infinite}@keyframes pd{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.5)}}
 .hero h1{color:var(--white);margin-bottom:.5rem}.hero h1 .accent{color:var(--white);position:relative;display:inline-block}.hero h1 .accent::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%);width:50px;height:2px;background:var(--accent);border-radius:1px}
@@ -37,15 +37,15 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 .hero-abstract{font-family:'Lora',serif;font-size:1.05rem;color:rgba(255,255,255,.72);line-height:1.85;margin-bottom:2.5rem;max-width:600px}
 .hero-stats{display:flex;gap:2.5rem;margin-bottom:2.5rem}.hero-stat-number{font-family:'Poppins',sans-serif;font-size:2.2rem;font-weight:800;color:var(--accent);line-height:1;letter-spacing:-.03em}
 .hero-stat-label{font-family:'Poppins',sans-serif;font-size:.72rem;font-weight:500;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.1em;margin-top:.3rem}
-.btn-primary{font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:600;color:var(--white);background:var(--purple);padding:1rem 2.2rem;border-radius:100px;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:all .35s;border:none;cursor:pointer}
-.btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);box-shadow:0 8px 32px rgba(185,140,60,.35)}
+.btn-primary{font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:600;color:var(--white);background:var(--gold);padding:1rem 2.2rem;border-radius:100px;text-decoration:none;display:inline-flex;align-items:center;gap:.5rem;transition:all .35s;border:none;cursor:pointer}
+.btn-primary:hover{background:var(--accent-dark);transform:translateY(-2px);box-shadow:0 8px 32px rgba(200,160,74,.35)}
 .btn-secondary{font-family:'Poppins',sans-serif;font-size:.9rem;font-weight:500;color:rgba(255,255,255,.8);background:transparent;padding:1rem 2.2rem;border-radius:100px;text-decoration:none;border:1px solid rgba(255,255,255,.2);display:inline-flex;align-items:center;transition:all .35s}
 .btn-secondary:hover{border-color:var(--accent);color:var(--accent)}.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap}
 .hero-sidebar{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--r-lg);padding:2.5rem;backdrop-filter:blur(12px)}
 .hero-sidebar h3{font-size:.72rem;font-weight:600;color:var(--accent);letter-spacing:.15em;text-transform:uppercase;margin-bottom:1.5rem}
 .sidebar-item{display:flex;justify-content:space-between;align-items:baseline;padding:.85rem 0;border-bottom:1px solid rgba(255,255,255,.06)}.sidebar-item:last-child{border:none}
 .sidebar-item-label{font-family:'Poppins',sans-serif;font-size:.8rem;color:rgba(255,255,255,.5)}.sidebar-item-value{font-family:'Poppins',sans-serif;font-size:.9rem;color:var(--white);font-weight:600;text-align:right}.sidebar-item-value .hl{color:var(--accent)}
-.sidebar-start{margin-top:1.5rem;text-align:center;padding:1.2rem;background:rgba(207,168,92,.08);border:1px solid rgba(207,168,92,.2);border-radius:var(--r-md)}
+.sidebar-start{margin-top:1.5rem;text-align:center;padding:1.2rem;background:rgba(200,160,74,.08);border:1px solid rgba(200,160,74,.2);border-radius:var(--r-md)}
 .sidebar-start .label{font-family:'Poppins',sans-serif;font-size:.65rem;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.15em}
 .sidebar-start .date{font-family:'Poppins',sans-serif;font-size:1.4rem;font-weight:700;color:var(--accent);margin-top:.25rem}
 .abstract-section{background:var(--white);border-bottom:1px solid var(--border-subtle)}
@@ -55,11 +55,11 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 .abstract-pullquote .attribution{margin-top:1rem;font-family:'Poppins',sans-serif;font-style:normal;font-size:.75rem;color:var(--accent);font-weight:600}
 .sector-bar{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3rem}
 .sector-chip{background:var(--ivory-warm);border:1px solid var(--border-subtle);border-radius:var(--r-sm);padding:1rem 1.2rem;text-align:center;font-family:'Poppins',sans-serif;font-size:.78rem;font-weight:600;color:var(--navy);transition:all .3s}
-.sector-chip:hover{border-color:var(--accent-dark);box-shadow:0 2px 8px rgba(14,7,34,.06)}.sector-chip .sub{display:block;font-weight:400;font-size:.68rem;color:var(--text-secondary);margin-top:.2rem}
-.highlights-section{background:var(--navy-deep);position:relative;overflow:hidden}.highlights-section::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(185,140,60,.06) 0%,transparent 50%)}
+.sector-chip:hover{border-color:var(--accent-dark);box-shadow:0 2px 8px rgba(10,18,32,.06)}.sector-chip .sub{display:block;font-weight:400;font-size:.68rem;color:var(--text-secondary);margin-top:.2rem}
+.highlights-section{background:var(--navy-deep);position:relative;overflow:hidden}.highlights-section::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(200,160,74,.06) 0%,transparent 50%)}
 .highlights-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;position:relative;z-index:1}
 .highlight-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:var(--r-md);padding:2rem;transition:all .4s}
-.highlight-card:hover{background:rgba(185,140,60,.05);border-color:rgba(207,168,92,.15);transform:translateY(-3px)}
+.highlight-card:hover{background:rgba(200,160,74,.05);border-color:rgba(200,160,74,.15);transform:translateY(-3px)}
 .highlight-number{font-family:'Poppins',sans-serif;font-size:.7rem;font-weight:700;color:var(--accent);letter-spacing:.12em;margin-bottom:.75rem}
 .highlight-card h3{font-size:1.05rem;font-weight:600;color:var(--white);margin-bottom:.6rem;line-height:1.35}
 .highlight-card p{font-family:'Lora',serif;font-size:.9rem;color:rgba(255,255,255,.55);line-height:1.65}
@@ -69,24 +69,24 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 .audience-card h4{font-size:.95rem;color:var(--navy);margin-bottom:.5rem}.audience-card p{font-size:.85rem;color:var(--text-secondary);line-height:1.6}
 .curriculum-section{background:var(--ivory-warm)}
 .phase-header{display:flex;align-items:center;gap:1rem;margin-bottom:2rem;margin-top:3rem}
-.phase-tag{font-family:'Poppins',sans-serif;font-size:.65rem;font-weight:700;color:var(--white);background:var(--purple);padding:.35rem 1rem;border-radius:100px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
+.phase-tag{font-family:'Poppins',sans-serif;font-size:.65rem;font-weight:700;color:var(--white);background:var(--gold);padding:.35rem 1rem;border-radius:100px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}
 .phase-header h3{font-size:1.1rem;color:var(--navy)}
 .module-card{background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--r-md);margin-bottom:1rem;overflow:hidden;transition:all .3s}.module-card:hover{box-shadow:var(--shadow-md)}
 .module-card-header{display:grid;grid-template-columns:56px 1fr auto;align-items:center;padding:1.25rem 1.5rem;cursor:pointer;gap:1.25rem}
-.module-number{font-family:'Poppins',sans-serif;font-size:1.2rem;font-weight:800;color:var(--purple);text-align:center;line-height:1}
+.module-number{font-family:'Poppins',sans-serif;font-size:1.2rem;font-weight:800;color:var(--gold);text-align:center;line-height:1}
 .module-info h4{font-size:.95rem;color:var(--navy);line-height:1.35;margin-bottom:.15rem}.module-meta{font-family:'Poppins',sans-serif;font-size:.7rem;color:var(--text-secondary)}
-.module-toggle{font-size:1.4rem;color:var(--purple);width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:rgba(185,140,60,.08);transition:transform .3s}
+.module-toggle{font-size:1.4rem;color:var(--gold);width:32px;height:32px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:rgba(200,160,74,.08);transition:transform .3s}
 .module-card.active .module-toggle{transform:rotate(45deg)}.module-body{display:none;padding:0 1.5rem 1.5rem;border-top:1px solid var(--border-subtle)}.module-card.active .module-body{display:block}
-.module-objective{background:rgba(185,140,60,.04);border-left:3px solid var(--purple);padding:1rem 1.25rem;margin:1rem 0 1.25rem;border-radius:0 var(--r-sm) var(--r-sm) 0}
+.module-objective{background:rgba(200,160,74,.04);border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:1rem 0 1.25rem;border-radius:0 var(--r-sm) var(--r-sm) 0}
 .module-objective h5{font-family:'Poppins',sans-serif;font-size:.72rem;font-weight:600;color:var(--accent-dark);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.5rem}
 .module-objective p{font-size:.9rem;color:var(--text-secondary);line-height:1.7}
 .module-topics h5{font-family:'Poppins',sans-serif;font-size:.78rem;font-weight:600;color:var(--navy);margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.08em}
 .module-topics ul{list-style:none;padding:0}.module-topics li{position:relative;padding:.45rem 0 .45rem 1.5rem;font-size:.88rem;color:var(--text-secondary);line-height:1.55}
-.module-topics li::before{content:'';position:absolute;left:0;top:.85rem;width:6px;height:6px;background:var(--purple);border-radius:50%}
+.module-topics li::before{content:'';position:absolute;left:0;top:.85rem;width:6px;height:6px;background:var(--gold);border-radius:50%}
 .curriculum-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:3rem;padding:2.5rem;background:var(--navy-deep);border-radius:var(--r-lg)}
 .summary-item{text-align:center}.summary-item .number{font-family:'Poppins',sans-serif;font-size:2.5rem;font-weight:800;color:var(--accent);line-height:1}
 .summary-item .label{font-family:'Poppins',sans-serif;font-size:.7rem;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.12em;margin-top:.3rem}
-.form-section{background:var(--navy-deep);position:relative;overflow:hidden}.form-section::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 20% 50%,rgba(185,140,60,.06) 0%,transparent 50%)}
+.form-section{background:var(--navy-deep);position:relative;overflow:hidden}.form-section::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 20% 50%,rgba(200,160,74,.06) 0%,transparent 50%)}
 .form-container{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
 .form-left h2{color:var(--white);margin-bottom:1rem}.form-left p{color:rgba(255,255,255,.6);font-size:1.05rem;line-height:1.75;margin-bottom:2rem}
 .form-benefits{list-style:none;padding:0}.form-benefits li{display:flex;align-items:flex-start;gap:.75rem;padding:.6rem 0;font-family:'Poppins',sans-serif;font-size:.85rem;color:rgba(255,255,255,.7)}.form-benefits li .check{color:var(--accent);font-weight:700;font-size:1rem;flex-shrink:0}
@@ -96,17 +96,17 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 .form-group label{display:block;font-family:'Poppins',sans-serif;font-size:.72rem;font-weight:500;color:rgba(255,255,255,.5);margin-bottom:.4rem;text-transform:uppercase;letter-spacing:.08em}
 .form-group input,.form-group select{width:100%;padding:.8rem 1rem;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--r-sm);color:var(--white);font-family:'Lora',serif;font-size:.9rem;transition:all .3s;outline:none}
 .form-group input::placeholder{color:rgba(255,255,255,.25)}
-.form-group input:focus,.form-group select:focus{border-color:var(--accent);background:rgba(185,140,60,.06);box-shadow:0 0 0 3px rgba(185,140,60,.1)}
-.form-group select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23CFA85C' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .8rem center;background-size:16px;padding-right:2.5rem}
+.form-group input:focus,.form-group select:focus{border-color:var(--accent);background:rgba(200,160,74,.06);box-shadow:0 0 0 3px rgba(200,160,74,.1)}
+.form-group select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C8A04A' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .8rem center;background-size:16px;padding-right:2.5rem}
 .form-group select option{background:var(--navy-deep);color:var(--white)}
 .form-disclaimer{font-family:'Poppins',sans-serif;font-size:.68rem;color:rgba(255,255,255,.3);margin-top:.5rem;line-height:1.5}
-.btn-submit{width:100%;margin-top:1rem;font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;color:var(--white);background:var(--purple);padding:1.1rem;border:none;border-radius:var(--r-sm);cursor:pointer;transition:all .35s}
-.btn-submit:hover{background:var(--accent-dark);box-shadow:0 8px 32px rgba(185,140,60,.35);transform:translateY(-1px)}
+.btn-submit{width:100%;margin-top:1rem;font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;color:var(--white);background:var(--gold);padding:1.1rem;border:none;border-radius:var(--r-sm);cursor:pointer;transition:all .35s}
+.btn-submit:hover{background:var(--accent-dark);box-shadow:0 8px 32px rgba(200,160,74,.35);transform:translateY(-1px)}
 .form-secure{display:flex;align-items:center;justify-content:center;gap:.5rem;margin-top:1rem;font-family:'Poppins',sans-serif;font-size:.68rem;color:rgba(255,255,255,.3)}
 .form-success{display:none;text-align:center;padding:3rem 2rem}.form-right.submitted form{display:none}.form-right.submitted .form-success{display:block}
-.form-success .check-circle{width:64px;height:64px;background:var(--purple);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;font-size:2rem;color:var(--white)}
+.form-success .check-circle{width:64px;height:64px;background:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;font-size:2rem;color:var(--white)}
 .form-success h3{color:var(--white);font-size:1.3rem;margin-bottom:.5rem}.form-success p{color:rgba(255,255,255,.6);font-size:.95rem}
-.site-footer{background:var(--navy-deep);padding:3rem 0 2rem;border-top:1px solid rgba(207,168,92,.1)}
+.site-footer{background:var(--navy-deep);padding:3rem 0 2rem;border-top:1px solid rgba(200,160,74,.1)}
 .footer-inner{display:flex;justify-content:space-between;align-items:center}.footer-logo{height:32px}.footer-text{font-family:'Poppins',sans-serif;font-size:.72rem;color:rgba(255,255,255,.35)}
 .footer-links{display:flex;gap:2rem}.footer-links a{font-family:'Poppins',sans-serif;font-size:.72rem;color:rgba(255,255,255,.4);text-decoration:none;transition:color .3s}.footer-links a:hover{color:var(--accent)}
 @media(max-width:1024px){.hero-content{grid-template-columns:1fr}.hero-sidebar{display:none}.abstract-grid{grid-template-columns:1fr}.highlights-grid{grid-template-columns:1fr}.audience-grid{grid-template-columns:repeat(2,1fr)}.form-container{grid-template-columns:1fr}.sector-bar{grid-template-columns:repeat(3,1fr)}.curriculum-summary{grid-template-columns:repeat(2,1fr)}}
@@ -184,7 +184,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 <div class="audience-card"><h4>Actuarios & Validators</h4><p>Analistas senior y model validators con visión ejecutiva.</p></div>
 <div class="audience-card"><h4>Compliance & Auditoría</h4><p>Officers de gobierno corporativo con el lenguaje técnico del riesgo.</p></div>
 </div>
-<div style="margin-top:2.5rem;padding:1.5rem 1.8rem;background:var(--ivory-warm);border:1px solid var(--border-subtle);border-left:3px solid var(--purple);border-radius:var(--r-md)"><h4 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-dark);margin-bottom:.5rem">Pre-requisitos</h4><p style="font-size:.9rem;color:var(--text-secondary);line-height:1.7">Licenciatura en carreras económico-administrativas, ingeniería, matemáticas, actuaría o afines · Deseable experiencia en áreas financieras, de riesgo, regulación, auditoría o tesorería · Algunos módulos se imparten parcial o totalmente en inglés (se recomienda nivel intermedio de lectura de inglés técnico).</p></div></div></section>
+<div style="margin-top:2.5rem;padding:1.5rem 1.8rem;background:var(--ivory-warm);border:1px solid var(--border-subtle);border-left:3px solid var(--gold);border-radius:var(--r-md)"><h4 style="font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent-dark);margin-bottom:.5rem">Pre-requisitos</h4><p style="font-size:.9rem;color:var(--text-secondary);line-height:1.7">Licenciatura en carreras económico-administrativas, ingeniería, matemáticas, actuaría o afines · Deseable experiencia en áreas financieras, de riesgo, regulación, auditoría o tesorería · Algunos módulos se imparten parcial o totalmente en inglés (se recomienda nivel intermedio de lectura de inglés técnico).</p></div></div></section>
 
 <section class="curriculum-section" id="curriculum"><div class="container">
 <div class="sec-head"><span class="section-label">Arquitectura del programa</span>
@@ -231,38 +231,54 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
 
 <div class="urgency-strip"><span class="us-label">Cupo limitado</span><span class="us-dot"></span><span class="us-info">Inicio: Agosto 2026</span><span class="us-dot"></span><span class="us-info">Virtual Live</span><span class="us-dot"></span><span class="us-info">USD $14,500 + TAX</span></div>
 
-<!-- ===== RISKMATHICS SALES MACHINE (inyectable) ===== -->
-<section id="rm-enroll" style="background:linear-gradient(135deg,#2A1651 0%,#221042 50%,#0E0722 100%);color:#fff;padding:72px 20px;font-family:'Poppins',Arial,sans-serif;">
+<!-- ===== RISKMATHICS SALES MACHINE v2 (inyectable) ===== -->
+<section id="rm-enroll" style="background:linear-gradient(135deg,#0A1220 0%,#101C33 50%,#16263F 100%);color:#F4F2EC;padding:72px 20px;font-family:'Poppins',Arial,sans-serif;">
   <div style="max-width:660px;margin:0 auto;">
     <div style="text-align:center;margin-bottom:28px;">
-      <div style="color:#CFA85C;letter-spacing:3px;font-size:12px;font-weight:700;">INSCRIPCIÓN · CUPO LIMITADO · INICIO AGOSTO 2026</div>
+      <div style="color:#C8A04A;letter-spacing:3px;font-size:12px;font-weight:700;">INSCRIPCIÓN · CUPO LIMITADO · INICIO AGOSTO 2026</div>
       <h2 style="font-size:30px;margin:12px 0 8px;font-weight:800;line-height:1.2;text-transform:uppercase;letter-spacing:.06em;">Asegura tu lugar</h2>
-      <div style="width:50px;height:2px;background:#CFA85C;margin:12px auto 14px;border-radius:1px;"></div>
-      <p style="color:#D9CBA8;font-size:16px;margin:0;">Déjanos tus datos, verifica tu WhatsApp y recibe el temario completo. Sin compromiso.</p>
+      <div style="width:50px;height:2px;background:#C8A04A;margin:12px auto 14px;border-radius:1px;"></div>
+      <p style="color:#D8D4C8;font-size:16px;margin:0;font-family:'Lora',Georgia,serif;">Déjanos tus datos, verifica tu WhatsApp y recibe el temario completo. Sin compromiso.</p>
     </div>
     <div style="background:#fff;color:#1f2937;border-radius:18px;padding:32px;box-shadow:0 30px 70px rgba(0,0,0,.3);">
       <form id="rm-lead" onsubmit="return rmSubmit(event)" style="display:grid;gap:12px;">
+        <input name="nombre" placeholder="Nombre(s)" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-          <input name="nombre" placeholder="Nombre" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;">
-          <input name="apellido" placeholder="Apellido" style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;">
+          <input name="apellido_paterno" placeholder="Apellido paterno" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
+          <input name="apellido_materno" placeholder="Apellido materno" style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
         </div>
-        <input type="email" name="email" placeholder="Email corporativo" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;">
+        <input type="email" name="email" placeholder="Email corporativo" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-          <input name="puesto" placeholder="Puesto" style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;">
-          <input name="empresa" placeholder="Institución / Empresa" style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;">
+          <input name="puesto" placeholder="Puesto" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
+          <input name="empresa" placeholder="Institución / Empresa" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
         </div>
-        <input name="whatsapp" placeholder="WhatsApp (ej. +52...)" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;">
-        <button type="submit" style="background:linear-gradient(135deg,#A87D33,#B98C3C);color:#fff;font-weight:800;font-size:16px;border:none;padding:15px;border-radius:10px;cursor:pointer;">Quiero el temario</button>
+        <select name="sector" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;color:#1f2937;background:#fff;">
+          <option value="" disabled selected>Sector financiero / industria</option>
+          <option>AFORE / Fondos de Pensión</option>
+          <option>Aseguradora / Insurance</option>
+          <option>Banca</option>
+          <option>Casa de Bolsa / Broker Dealer</option>
+          <option>Asset Manager</option>
+          <option>Hedge Fund</option>
+          <option>Family Office</option>
+          <option>Corporativo</option>
+          <option>PyME</option>
+          <option>Gobierno</option>
+          <option>Energía</option>
+          <option>Otro</option>
+        </select>
+        <input name="whatsapp" placeholder="WhatsApp (ej. +52...)" required style="padding:13px 14px;border:1px solid #d8dee9;border-radius:10px;font-size:15px;font-family:'Lora',Georgia,serif;">
+        <button type="submit" style="background:linear-gradient(135deg,#E3C578,#C8A04A);color:#241803;font-weight:800;font-size:16px;border:none;padding:15px;border-radius:10px;cursor:pointer;font-family:'Poppins',Arial,sans-serif;">Quiero el temario</button>
         <p style="font-size:12px;color:#8a94a6;margin:0;text-align:center;">🔒 Te enviamos un código por SMS para verificar. Datos protegidos.</p>
       </form>
       <div id="rm-verify" style="display:none;"></div>
       <div id="rm-thanks" style="display:none;background:#ecfdf5;border:1px solid #6ee7b7;color:#065f46;padding:20px;border-radius:14px;font-size:15px;">✅ <b>¡Listo!</b> Recibimos y verificamos tus datos. Te enviamos el temario y un asesor te contactará.</div>
       <div style="margin-top:24px;padding-top:22px;border-top:1px solid #eef1f6;text-align:center;">
         <div style="font-size:13px;color:#6b7280;letter-spacing:1px;">O INSCRÍBETE Y PAGA DIRECTO</div>
-        <div style="font-size:30px;font-weight:800;color:#221042;margin:8px 0 4px;">USD $<span>14,500</span> <span style="font-size:14px;color:#6b7280;font-weight:500;">+ TAX</span></div>
-        <div style="display:grid;gap:10px;margin-top:16px;">
-          <a id="rm-paypal" href="" target="_blank" rel="noopener" style="background:#CFA85C;color:#221042;font-weight:800;padding:14px;border-radius:10px;text-decoration:none;">Pagar con PayPal · 6 MSI</a>
-          <a id="rm-stripe" href="https://buy.stripe.com/cNi9AL6flaKY7AB1AJ2Ry1p" target="_blank" rel="noopener" style="background:#B98C3C;color:#FFFFFF;font-weight:700;padding:14px;border-radius:10px;text-decoration:none;">Pagar con tarjeta · Stripe</a>
+        <div style="font-size:30px;font-weight:800;color:#0A1220;margin:8px 0 4px;">USD $<span>14,500</span> <span style="font-size:14px;color:#6b7280;font-weight:500;">+ TAX</span></div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:16px;">
+          <a id="rm-paypal" href="https://bffdsgvgcvmojobfiuay.supabase.co/functions/v1/paypal-pay?curso=chiefriskofficer" target="_blank" rel="noopener" style="background:#C8A04A;color:#241803;font-weight:800;padding:14px;border-radius:10px;text-decoration:none;white-space:nowrap;font-family:'Poppins',Arial,sans-serif;">Pagar con PayPal · 6 MSI</a>
+          <a id="rm-stripe" href="https://buy.stripe.com/cNi9AL6flaKY7AB1AJ2Ry1p" target="_blank" rel="noopener" style="background:#0A1220;color:#F4F2EC;font-weight:700;padding:14px;border-radius:10px;text-decoration:none;white-space:nowrap;font-family:'Poppins',Arial,sans-serif;">Pagar con tarjeta · Stripe</a>
         </div>
         <p style="font-size:11px;color:#9aa4b4;margin-top:12px;">100% seguro · SSL · PayPal Verified · RiskMathics Financial Institute</p>
       </div>
@@ -270,17 +286,17 @@ h1,h2,h3,h4,h5,h6{font-family:'Poppins',sans-serif;font-weight:700;line-height:1
   </div>
 </section>
 <script>
-const RM_CFG={id:"chiefriskofficer",folleto:"https://riskmathics-folletos-2026.s3.amazonaws.com/chief-risk-officer-2026.pdf",paypal:"",stripe:"https://buy.stripe.com/cNi9AL6flaKY7AB1AJ2Ry1p"};
+const RM_CFG={id:"chiefriskofficer",folleto:"https://riskmathics-folletos-2026.s3.amazonaws.com/chief-risk-officer-2026.pdf",paypal:"https://bffdsgvgcvmojobfiuay.supabase.co/functions/v1/paypal-pay?curso=chiefriskofficer",stripe:"https://buy.stripe.com/cNi9AL6flaKY7AB1AJ2Ry1p"};
 const RM_VURL="https://bffdsgvgcvmojobfiuay.supabase.co/functions/v1/verify-lead";
 const RM_VKEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJmZmRzZ3ZnY3Ztb2pvYmZpdWF5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUzOTQ0NzQsImV4cCI6MjA5MDk3MDQ3NH0.7VKn7st3POLRTLIXx9Y4gRjXbh8v_BKXblc7vFIVu-U";
 let RM_LEAD=null;
 (function(){var pp=document.getElementById('rm-paypal');if(pp&&!RM_CFG.paypal)pp.style.display='none';var sp=document.getElementById('rm-stripe');if(sp&&!RM_CFG.stripe)sp.style.display='none';})();
 async function rmPost(p){const r=await fetch(RM_VURL,{method:"POST",headers:{"Content-Type":"application/json","apikey":RM_VKEY,"Authorization":"Bearer "+RM_VKEY},body:JSON.stringify(p)});return r.json();}
-async function rmSubmit(e){e.preventDefault();const f=e.target,d=Object.fromEntries(new FormData(f));let phone=(d.whatsapp||"").trim().replace(/[\s\-()]/g,"");if(phone&&!phone.startsWith("+"))phone="+52"+phone.replace(/^0+/,"");if(!phone||phone.length<10){alert("Escribe tu WhatsApp con lada (ej +52...).");return false;}d.phone=phone;d.curso=RM_CFG.id;d.folleto=RM_CFG.folleto;RM_LEAD=d;const b=f.querySelector('button[type=submit]');b.textContent="Enviando código...";b.disabled=true;let res;try{res=await rmPost({action:"start",phone:phone,channel:"sms"});}catch(_){res={};}if(res&&(res.status==="pending"||res.ok)){f.style.display="none";rmShowCode(phone);}else{b.textContent="Quiero el temario";b.disabled=false;alert("No pudimos enviar el código. Revisa tu número.");}return false;}
-function rmShowCode(phone){var c=document.getElementById('rm-verify');c.innerHTML='<p style="margin:0 0 12px;font-size:15px;color:#1f2937;">📲 Te enviamos un código por SMS a <b>'+phone+'</b>. Ingrésalo:</p><input id="rm-otp" inputmode="numeric" placeholder="Código de 6 dígitos" style="width:100%;padding:14px;border:1px solid #d8dee9;border-radius:10px;font-size:22px;text-align:center;letter-spacing:8px;margin-bottom:12px;"><button type="button" onclick="rmVerify()" style="width:100%;background:linear-gradient(135deg,#A87D33,#B98C3C);color:#fff;font-weight:800;font-size:16px;border:none;padding:14px;border-radius:10px;cursor:pointer;">Verificar y recibir temario</button><p id="rm-vmsg" style="font-size:12px;color:#8a94a6;margin-top:8px;"></p>';c.style.display="block";document.getElementById('rm-otp').focus();}
-async function rmVerify(){var code=(document.getElementById('rm-otp').value||"").trim();var m=document.getElementById('rm-vmsg');if(code.length<4){m.textContent="Escribe el código completo.";return;}m.textContent="Verificando...";var res;try{res=await rmPost({action:"check",phone:RM_LEAD.phone,code:code,email:RM_LEAD.email,nombre:RM_LEAD.nombre,apellido:RM_LEAD.apellido,puesto:RM_LEAD.puesto,empresa:RM_LEAD.empresa,curso:RM_CFG.id,folleto:RM_CFG.folleto});}catch(_){res={};}if(res&&res.verified){document.getElementById('rm-verify').style.display="none";document.getElementById('rm-thanks').style.display="block";if(RM_CFG.folleto)window.open(RM_CFG.folleto,'_blank');}else{m.textContent="Código incorrecto o expirado. Intenta de nuevo.";}}
+async function rmSubmit(e){e.preventDefault();const f=e.target,d=Object.fromEntries(new FormData(f));let phone=(d.whatsapp||"").trim().replace(/[\s\-()]/g,"");if(phone&&!phone.startsWith("+"))phone="+52"+phone.replace(/^0+/,"");if(!phone||phone.length<10){alert("Escribe tu WhatsApp con lada (ej +52...).");return false;}d.phone=phone;d.apellido=((d.apellido_paterno||"")+" "+(d.apellido_materno||"")).trim();d.curso=RM_CFG.id;d.folleto=RM_CFG.folleto;RM_LEAD=d;const b=f.querySelector('button[type=submit]');b.textContent="Enviando código...";b.disabled=true;let res;try{res=await rmPost({action:"start",phone:phone,channel:"sms"});}catch(_){res={};}if(res&&(res.status==="pending"||res.ok)){f.style.display="none";rmShowCode(phone);}else{b.textContent="Quiero el temario";b.disabled=false;alert("No pudimos enviar el código. Revisa tu número.");}return false;}
+function rmShowCode(phone){var c=document.getElementById('rm-verify');c.innerHTML='<p style="margin:0 0 12px;font-size:15px;color:#1f2937;">📲 Te enviamos un código por SMS a <b>'+phone+'</b>. Ingrésalo:</p><input id="rm-otp" inputmode="numeric" placeholder="Código de 6 dígitos" style="width:100%;padding:14px;border:1px solid #d8dee9;border-radius:10px;font-size:22px;text-align:center;letter-spacing:8px;margin-bottom:12px;"><button type="button" onclick="rmVerify()" style="width:100%;background:linear-gradient(135deg,#E3C578,#C8A04A);color:#241803;font-weight:800;font-size:16px;border:none;padding:14px;border-radius:10px;cursor:pointer;">Verificar y recibir temario</button><p id="rm-vmsg" style="font-size:12px;color:#8a94a6;margin-top:8px;"></p>';c.style.display="block";document.getElementById('rm-otp').focus();}
+async function rmVerify(){var code=(document.getElementById('rm-otp').value||"").trim();var m=document.getElementById('rm-vmsg');if(code.length<4){m.textContent="Escribe el código completo.";return;}m.textContent="Verificando...";var res;try{res=await rmPost({action:"check",phone:RM_LEAD.phone,code:code,email:RM_LEAD.email,nombre:RM_LEAD.nombre,apellido:RM_LEAD.apellido,apellido_paterno:RM_LEAD.apellido_paterno,apellido_materno:RM_LEAD.apellido_materno,puesto:RM_LEAD.puesto,empresa:RM_LEAD.empresa,sector:RM_LEAD.sector,curso:RM_CFG.id,folleto:RM_CFG.folleto});}catch(_){res={};}if(res&&res.verified){document.getElementById('rm-verify').style.display="none";document.getElementById('rm-thanks').style.display="block";if(RM_CFG.folleto)window.open(RM_CFG.folleto,'_blank');}else{m.textContent="Código incorrecto o expirado. Intenta de nuevo.";}}
 </script>
-<!-- ===== /SALES MACHINE ===== -->
+<!-- ===== /SALES MACHINE v2 ===== -->
 
 
 <footer class="site-footer"><div class="container"><div class="footer-inner"><div style="display:flex;align-items:center;gap:1rem"><span style="font-family:'Poppins',sans-serif;font-weight:800;font-size:.95rem;color:#fff;letter-spacing:.04em">RISK<span style="color:var(--accent)">MATHICS</span></span><span class="footer-text">© 2026 RiskMathics Financial Innovation Institute.</span></div><div class="footer-links"><a href="javascript:void(0)">Términos</a><a href="javascript:void(0)">Privacidad</a><a href="mailto:growth@riskmathics.com">Contacto</a></div></div></div></footer>
